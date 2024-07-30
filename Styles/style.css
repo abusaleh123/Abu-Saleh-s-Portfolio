@@ -293,6 +293,7 @@ header{
 .portfolio{
     margin-top:100px;
     margin:0 auto;
+    margin-bottom: 150px;
 }
 .first-sec-text2{
     justify-content: center;
@@ -374,4 +375,8 @@ header{
     color:#FF014F;
     transition:0.5s;
 
+}
+/* My Resume Section */
+.resume{
+    margin-top:130px;
 }
