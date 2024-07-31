@@ -276,7 +276,7 @@ a:hover {
     ;
 }
 
-.first-sec-main-title {
+.-title {
     color: #C1C4C7;
     font-weight: 500;
     ;
@@ -686,7 +686,9 @@ a:hover {
     width: 55%;
 
 }
-
+.testimonial-second-main-title{
+    color:#c1ccda;
+}
 .testimonial-main-text {
     display: flex;
     flex-direction: column;
@@ -697,9 +699,14 @@ a:hover {
 .testimonial-photo {
     width: 90%;
     border-radius: 10px;
+   
     
 }
-
+.testimonial-photo:hover{
+    transform: scale(1.1);
+    transition:1s ease-in-out;
+    background-image: linear-gradient(to right, rgb(24, 21, 21), rgb(55, 55, 138) 400px, rgb(110, 25, 25) 800px);
+}
 .testimonial-card-sec {
     display: flex;
     gap: 50px;
