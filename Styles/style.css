@@ -6,6 +6,7 @@
 }
 
 body {
+   
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -32,6 +33,8 @@ header {
 }
 
 .header {
+    position:sticky;
+    top:0px;
     width: 96%;
     justify-content: space-between;
     /* border:2px solid green; */
@@ -50,6 +53,7 @@ header {
     align-items: center;
     padding: 40px 45px;
     margin-bottom: 50px;
+    background-color: #212428;
 }
 
 /* .gallery{
@@ -787,5 +791,111 @@ a:hover {
 /* C;ients Section */
 
 .Clients{
+    margin-top:100px;
+    display:flex;
+    justify-content: center;
+}
+.clients-first-title{
+    color:#ff004c;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size:0.9rem;;
+}
+.clients-main-title{
+    color:#c1ccda;
+    margin-top:20px;
+}
+.clients-container{
+    width:65%;
+}
+.clients-left-btn-container{
+    margin-top:50px;
+    display:grid;
+    grid-template-rows: repeat(6, 1fr);
+    width:40%;
+    height:450px;
+    /* padding:50px; */
+    text-align: center;
+    background-color: #1E2125;
+    position: sticky;
+   top:50px;
+   bottom:0px;
+   border-radius: 10px;;
+   box-shadow:1px 1px 10px #3b3939;
+}
+.clients-btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    border-radius: 10px;
+    font-size:1rem;
+    font-weight: 600;
+}
+.clients-btn:hover{
+    box-shadow:1px 1px 10px #636060;
+    
+}
+.clients-btn1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    border-radius: 10px;
+    font-size:1rem;
+    font-weight: 600;
+    box-shadow:1px 1px 10px #636060;
+    color:#FF014F;
+    ;
+}
+.clients-card-container{
+   display:flex;
+   gap:50px;
+   
+}
+.cliens-name-container{
+   margin-top:50px;
+    width:100%;
+    height:800px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap:40px;
+}
+.client-card{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;;
+    background-color: #1E2125;
+    box-shadow:1px 1px 20px #393b3d;
+}
+.client-card:hover{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(25,25,133,1) 35%, rgb(0, 89, 255) 100%);
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+.clients-logo{
+    margin-bottom:50px;
+    /* width:40%; */
+}
+.clients-logo3{
+    margin-bottom:50px;
+}
+.border{
+    border-top: 1px solid #04030a;
+    width: 100%;
+    margin-top:-15px;
+  
+}
+.client-name{
+    color:#a3b0c2;
+    font-weight: 400;
+    font-size:1rem;
+    margin-top:25px;
+}
+/* Pricing Section */
+.pricing{
     margin-top:100px;
 }
