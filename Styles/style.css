@@ -958,9 +958,9 @@ a:hover {
     justify-content: center;
     align-items: center;
     border-radius: 10px;;
-    box-shadow:1px 1px 10px #636060;
+   
 }
-.pricing-btn{
+.pricing-btn1{
     height:100%;
     width:100%;
     display: flex;
@@ -970,11 +970,18 @@ a:hover {
     box-shadow:1px 1px 10px #636060;
     color:#FF014F;
 }
+.pricing-btn1:hover{
+    color:#ff004c;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(25,25,133,1) 35%, rgb(0, 89, 255) 100%);
+    transform:scale(0.9);
+    transition: 0.5s;
+}
 .pricing-btn:hover{
     color:#ff004c;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(25,25,133,1) 35%, rgb(0, 89, 255) 100%);
     transform:scale(0.9);
     transition: 0.5s;
+    box-shadow:1px 1px 10px #636060;
 }
 .pricing-card-title{
     font-size:1.5rem;
@@ -1015,9 +1022,9 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: #1E2125;
-    height:15%;
+    height:10%;
     border-radius: 10px;;
-    box-shadow:1px 1px 10px #636060;
+    box-shadow:1px 1px 10px #3d3a3a;
 }
 .pricing-name{
     color:#a9b4c0;
@@ -1043,10 +1050,12 @@ a:hover {
    /* border:1px solid red; */
    justify-content: center;
    align-items: center;
+   place-content: center;
    background-color: #202428;
    box-shadow:1px 1px 10px #3a3838;
    border-radius: 10px;;
    margin-top:50px;
+   
   
 }
 .order-now-btn:hover{
@@ -1072,6 +1081,17 @@ background: linear-gradient(to right, #4c9efc, #b65550);
     padding-top:20px;
     padding-bottom:20px;
     /* margin:0px; */
+}
+#right-arrow{
+
+ margin:auto 0;
+ margin-left:7px;
+}
+#bolt{
+    color:#b2c2d4
+}
+.fa-check{
+    color:#a9b4c0;
 }
 .border-top{
     margin-top:200px;
