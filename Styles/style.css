@@ -1354,4 +1354,43 @@ input::placeholder{
 /* Footer-section */
 .footer{
     margin-top:100px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:20px;
 }
+.footer-container{
+    width:65%;
+    display:flex;
+    justify-content: space-around;
+}
+.footer-second-sec-title{
+    color:#FF014F;
+    font-size:1.1rem;
+    font-weight: 350;
+    letter-spacing: 0.5px;;
+    margin-bottom: 30px;;
+}
+.footer-second-sec-description{
+    color:#cad3dd;
+    font-size:1rem;
+    line-height:40px;
+    letter-spacing: 2px;;
+    /* width:50%; */
+}
+.footer-second-sec-description:hover{
+    color:#FF014F;
+    border-bottom:1px solid #FF014F;
+    transform:none;
+    transition: 1s;
+}
+.footer-last-talking{
+    color:#808791;
+    margin-top: 80px;;
+}
+
+
+
+/* End  */
+/* Media Query Start */
