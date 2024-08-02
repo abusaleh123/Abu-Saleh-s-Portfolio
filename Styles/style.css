@@ -503,7 +503,7 @@ a:hover {
 
 .resume-btn-container {
     width: 100%;
-    height: 10%;
+    height: 7%;
     background-color: #22262A;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -697,6 +697,9 @@ a:hover {
     letter-spacing: 1px;
     line-height: 25px;
     ;
+}
+.resume-year-div2{
+    display:none;
 }
 
 /* Testimonial Section */
@@ -1505,5 +1508,104 @@ input::placeholder{
 .banner-description{
     font-size:0.9rem;
     /* width:100%; */
+}
+/* What I Do */
+
+.what-i-do-card-sec{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.what-i-do-card{
+    /* width:100%; */
+}
+.first-sec-first-title{
+    text-align: center;
+
+}
+.first-sec-main-title{
+    font-size:2.5rem;
+    text-align: center;
+}
+
+/* Portfolio */
+.portfolio{
+    /* margin-top:1500px; */
+}
+.portfolio-card-sec{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.portfolio-card{
+    width:calc(100% - 100px)
+}
+.gallery{
+    width:100%;
+}
+.porfolio-card-photo{
+    width:100%;
+}
+.bottom{
+    margin-top:1550px;
+}
+
+/* Resume Section */
+
+
+.resume{
+    /* margin-top:1450px; */
+}
+.top{
+    margin-top:1550px;
+}
+.resume-btn-container{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    height:25%;
+
+}
+.card-der{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.resume-year-div3{
+    display:none;
+}
+.resume-year-div2{
+    display:block;
+}
+.resume-year-title{
+    width:300px;
+}
+
+
+
+/* Testimonial Section */
+
+.testimonial-top{
+    margin-top:2300px;
+}
+.testimonial-card-sec{
+    display:flex;
+    flex-direction: column;
+}
+.coma{
+    display:none;
+}
+.testimonial-card-div{
+    display:flex;
+    flex-direction: column;
+}
+.resume-second-card-description {
+    width:100%;
+}
+.testimonial-rating-png{
+    width:40%;
+    margin-top:10px;
+}
+.resume-card-border-top{
+    width:100%;
+}
+.resume-second-card-main-description{
+    width:100%;
 }
 }
