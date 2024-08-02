@@ -1749,4 +1749,24 @@ input::placeholder{
    grid-template-columns: repeat(1, 1fr);
    gap:50px;
 }
+
+
+/* Footer Section */
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+}
+.footer-second-sec{
+    margin-top:25px;
+}
+.footer-third-sec{
+    margin-top:50px;
+}
+.footer-fourth-sec{
+    margin-top:50px;
+}
+.footer-second-sec-title{
+    margin-bottom: 10px;;
+}
 }
